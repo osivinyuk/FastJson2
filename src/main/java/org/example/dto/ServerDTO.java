@@ -35,7 +35,7 @@ public class ServerDTO {
     String externalInterface;
 
     @JSONField(name = "network_interfaces")
-    HashMap<String, String> netInterfaces;
+    Map<String, String> netInterfaces;
 
     @JSONField(name = "version")
     String version;
